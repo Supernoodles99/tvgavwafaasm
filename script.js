@@ -7,11 +7,11 @@ if (darkMode) {
 function toggleDarkMode() {
   darkMode = !darkMode;
   if (darkMode) {
-    localStorage.setItem("darkMode", true);
-    document.body.classList.add("darkMode");
-  } else {
     localStorage.setItem("darkMode", false);
     document.body.classList.remove("darkMode");
+  } else {
+    localStorage.setItem("darkMode", true);
+    document.body.classList.add("darkMode");
   }
 }
 
