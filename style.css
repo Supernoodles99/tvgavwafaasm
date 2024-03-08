@@ -1,0 +1,10 @@
+body {
+  /*long code*/
+  font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  color: #121212;
+  background-color: #eeeeee;
+}
+.darkMode {
+  background-color: #121212;
+  color: #eeeeee;
+}
