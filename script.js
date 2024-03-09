@@ -5,7 +5,7 @@ if (darkMode == "true") {
 }
 
 function toggleDarkMode() {
-  darkMode = !darkMode;
+  darkMode = darkMode == "true" ? "false" : "true";
   if (darkMode) {
     localStorage.setItem("darkMode", "true");
     document.body.classList.add("darkMode");
