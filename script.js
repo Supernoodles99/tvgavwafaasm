@@ -1,12 +1,12 @@
-let darkMode = localStorage.getItem("darkMode");
+let darkMode = localStorage.getItem("darkMode") === "true";
 const darkToggle = document.getElementById("darkModeToggle")
-if (darkMode == "true") {
+if (darkMode) {
   document.body.classList.add("darkMode");
 }
 
 function toggleDarkMode() {
-  darkMode = darkMode == "true" ? "false" : "true";
-  if (darkMode == "true") {
+  darkMode = !darkMode;
+  if (darkMode) {
     localStorage.setItem("darkMode", "true");
     document.body.classList.add("darkMode");
   } else {
